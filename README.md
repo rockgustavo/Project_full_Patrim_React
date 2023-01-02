@@ -4,9 +4,9 @@ Um projeto amostra para apresentar tecnologias e modelagem de dados
 ![Modelo](src/img_logos/Tecnologias.PNG)
 
 ## Desenvolvimento do Front-End:
-A tecnologia utilizada pelo front_end para consumir a API foi a biblioteca React. Esta SPA, single-page application, tem em sua estrutura o JavaScript com a apresentação de dados através do HTML 5 e sua estilização pelo CSS 3. A biblioteca de componentes do Prime Faces auxíliou para apresentação as listas de dados de forma fácil é agradável. Um bucket criado pelo S3 da AWS dispõe este aplicação. A codificação da API pode ser também acompanhada através deste link:
+A tecnologia utilizada pelo front-end para consumir a API foi a biblioteca React. Esta SPA, single-page application, tem em sua estrutura o JavaScript com a apresentação de dados através do HTML 5 e sua estilização pelo CSS 3. A biblioteca de componentes do Prime Faces auxíliou para apresentar as listas de dados de forma fácil é agradável. Um bucket criado pelo S3 da AWS dispõe esta aplicação. A codificação da API pode ser também acompanhada através deste link:
 
-[<img alt="Git-Hub Project Back-End" width="100px" src="src/img_logos/Github.svg" />](https://github.com/rockgustavo/Project_full_Patrim_React)
+[<img alt="Git-Hub Project Back-End" width="100px" src="src/img_logos/Github.svg" />](https://github.com/rockgustavo/Project_full_Patrim)
 
 ### Front-End - Consumo da API com base no React, link de acesso:
 [<img alt="Front-End" width="300px" src="src/img_logos/Controle_patrimonial.PNG" />](http://rockgustavo.com.s3-website-us-east-1.amazonaws.com/)
