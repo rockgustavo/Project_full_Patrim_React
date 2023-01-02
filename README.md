@@ -19,7 +19,7 @@ A necessidade de controle patrimonial de uma empresa, ou entidade privada, se fa
 A entrada de um bem é feita por um código único que elencará os dados do item como sua carga patrimonial e a quem pertence este item.
 Futuros relatórios ou balanços podem ser gerados com estas informações salvas em um base de dados.
 
-### Modelo Concentual
+### Modelo Conceitual
 ![Modelo](src/img_logos/Modelo_conceitual.png)
 
 ### Diagrama de Objetos
