@@ -23,5 +23,5 @@ Futuros relatórios ou balanços podem ser gerados com estas informações salva
 ![Modelo](src/img_logos/Modelo_conceitual.png)
 
 ### Diagrama de Objetos
-![Modelo](src/img_logos/img/Diagrama_objetos.PNG)
+![Modelo](src/img_logos/Diagrama_objetos.PNG)
 
