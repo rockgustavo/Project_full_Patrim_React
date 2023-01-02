@@ -3,6 +3,11 @@ Um projeto amostra para apresentar tecnologias e modelagem de dados
 
 ![Modelo](src/main/resources/img/Tecnologias.PNG)
 
+## Desenvolvimento do Front-End:
+A tecnologia utilizada pelo front_end para consumir a API foi a biblioteca React. Esta SPA, single-page application, tem em sua estrutura o JavaScript com a apresentação de dados através do HTML 5 e sua estilização pelo CSS 3. A biblioteca de componentes do Prime Faces auxíliou para apresentação as listas de dados de forma fácil é agradável. Um bucket criado pelo S3 da AWS dispõe este aplicação. A codificação da API pode ser também acompanhada através deste link:
+
+[<img alt="Git-Hub Project Back-End" width="100px" src="src/main/resources/img/img_logos/Github.svg" />](https://github.com/rockgustavo/Project_full_Patrim_React)
+
 ### Front-End - Consumo da API com base no React, link de acesso:
 [<img alt="Front-End" width="300px" src="src/main/resources/img/Controle_patrimonial.PNG" />](http://rockgustavo.com.s3-website-us-east-1.amazonaws.com/)
 
@@ -19,10 +24,4 @@ Futuros relatórios ou balanços podem ser gerados com estas informações salva
 
 ### Diagrama de Objetos
 ![Modelo](src/main/resources/img/Diagrama_objetos.PNG)
-
-## Desenvolvimento do Back-End:
-A tecnologia utilizada pelo back-end tem sua codificação em Java com o framework Spring Boot. Os padrões Rest e a especifição do JPA, Java Persistence API através da tecnologia ORM do Hibernate, foram aplicadas como estrutura do código fonte. Através dos serviços da AWS, Amazon Web Services, o banco de dados Relacional MySQL e um servidor Linux Ubuntu também instanciado em nuvem compõe e infraestrutura da aplicação.
-Um bucket ainda na AWS dispõe o Front-end que consome esta API através da biblioteca React. Esta codificação pode ser também acompanhada através deste link:
-
-[<img alt="Git-Hub Project Front-End" width="100px" src="src/main/resources/img/img_logos/Github.svg" />](https://github.com/rockgustavo/Project_full_Patrim_React)
 
