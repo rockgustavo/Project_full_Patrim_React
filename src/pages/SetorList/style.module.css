@@ -1,0 +1,36 @@
+.container h2 {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1em;
+}
+
+.lista {
+    font-size: 0.8em;
+    margin: 0 5px;
+}
+
+.painel{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.colunaFull{
+    visibility: hidden;
+}
+
+@media screen and (min-width: 63em) {
+    .colunaFull{
+        visibility: visible;
+    }
+
+    .container h2 {
+        font-size: 1.6em;
+    }
+
+    .painel{
+        margin: 10px 30% 0;
+    }
+}

@@ -1,0 +1,16 @@
+.pat_container h2 {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 60em) {
+    .pat_container form{
+        margin: 20px 200px;
+    }
+
+    .pat_container textarea{
+        height: 100px;
+    }
+}

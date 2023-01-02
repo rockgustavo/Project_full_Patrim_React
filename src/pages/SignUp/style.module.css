@@ -1,0 +1,39 @@
+.main_container h2 {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+form {
+    margin: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form input {
+    width: 300px;
+}
+
+@media screen and (min-width: 47em) {
+    form {
+        margin: 0 250px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .main_container form{
+        margin: 20px 200px;
+    }
+
+    form input {
+        width: 300px;
+    }
+
+    .main_container h2 {
+        font-size: 1.6em;
+    }
+}

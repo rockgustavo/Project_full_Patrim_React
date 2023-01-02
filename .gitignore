@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+src/services/FireBaseConnection.js
+src/services/api.js
+
+# Local Netlify folder
+.netlify

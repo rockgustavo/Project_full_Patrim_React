@@ -1,0 +1,22 @@
+.container h2 {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    margin: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form label{
+    margin: 10px;
+}
+
+form input,
+form textarea{
+    width: 300px;
+}

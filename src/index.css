@@ -1,13 +1,167 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*:focus {
+  outline: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+  background-color: #fffdfd;
+
+}
+
+.grid{
+    margin: 0;
+    display: grid;
+    grid:
+      "nav nav" 10vh
+      "aside main" 80vh
+      "footer footer" 10vh
+      / 15vw 85vw;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.aside {
+  grid-area: aside;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a:hover,
+nav button:hover {
+  color: #bbb;
+}
+
+form {
+  margin: 0 auto;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+label span {
+  margin-bottom: 0.3em;
+  font-weight: bold;
+  text-align: left;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 0.6em 0em;
+  background-color: transparent;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.btn {
+  background-color: #0c111f;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+  margin: 10px;
+
+}
+
+.painel{
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info{
+  background-color: rgb(253, 217, 12);
+  border: 1px solid rgb(211, 207, 4);
+}
+
+.update {
+  background-color: rgb(19, 122, 36);
+}
+
+.delete {
+  background-color: rgb(168, 34, 16);
+}
+
+.statusCreate{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  background-color: rgb(36, 230, 68);
+  border-radius: 5px;
+  width: 150px;
+  color: white;
+  padding: 5px;
+  margin: 0 10px;
+}
+
+.statusUpdate{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  background-color: rgb(245, 213, 35);
+  border-radius: 5px;
+  width: 150px;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  margin: 0 10px;
+}
+
+.btn:hover {
+  color: rgb(194, 195, 206);
+}
+
+@media screen and (min-width: 63em) {
+  .painel{
+      margin: 10px 30% 0;
+  }
 }

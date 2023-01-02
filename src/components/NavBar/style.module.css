@@ -1,0 +1,36 @@
+.nav_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(250, 250, 250);
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, .15) 0px -2px 10px 0px;
+}
+
+.logo{
+    color: #000;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+.img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+@media screen and (min-width: 47em) {
+    .img{
+        width: 80px;
+        height: 60px;
+    }
+
+    .logo{
+        color: #000;
+        font-weight: bold;
+        font-size: 40px;
+        margin-left: 50px;
+    }
+}

@@ -1,0 +1,16 @@
+.footer_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebf1f3;
+    height: 100%;
+    font-size: .8em;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 47em) {
+    .footer_container{
+        font-size: .9em;
+    }
+}

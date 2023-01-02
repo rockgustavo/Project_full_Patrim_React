@@ -1,0 +1,47 @@
+.login_container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_container form {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logar {
+    position: fixed;
+    bottom: 35vh;
+    right: 20vw;
+}
+
+.error{
+    background-color: rgb(219, 30, 30);
+    color: #FFF;
+    font-weight: bold;
+    width: 300px;
+    padding: 15px 0;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 20vh;
+    right: 5vw;
+    text-align: center;
+}
+
+@media screen and (min-width: 50em) {
+    #logar {
+        position: fixed;
+        bottom: 43vh;
+        right: 33vw;
+    }
+
+    .error{
+        bottom: 30vh;
+        right: 30vw;
+    }
+}
