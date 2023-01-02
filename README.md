@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Projeto Full Stack Patrimônio
+Um projeto amostra para apresentar tecnologias e modelagem de dados
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Modelo](src/main/resources/img/Tecnologias.PNG)
 
-## Available Scripts
+### Front-End - Consumo da API com base no React, link de acesso:
+[<img alt="Front-End" width="300px" src="src/main/resources/img/Controle_patrimonial.PNG" />](http://rockgustavo.com.s3-website-us-east-1.amazonaws.com/)
 
-In the project directory, you can run:
+### Back-End - API Restful com base no Spring Boot 3.0, link de acesso:
+[<img alt="Back-End" width="200px" src="src/main/resources/img/Swagger.PNG" />](http://107.21.11.22:8080/swagger-ui/index.html)
 
-### `npm start`
+### A regra de negócio
+A necessidade de controle patrimonial de uma empresa, ou entidade privada, se faz necessário como um módulo administrativo que interage seus dados com outros módulos, como o controle de funcionários e a contabilidade. 
+A entrada de um bem é feita por um código único que elencará os dados do item como sua carga patrimonial e a quem pertence este item.
+Futuros relatórios ou balanços podem ser gerados com estas informações salvas em um base de dados.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Modelo Concentual
+![Modelo](src/main/resources/img/Modelo_conceitual.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Diagrama de Objetos
+![Modelo](src/main/resources/img/Diagrama_objetos.PNG)
 
-### `npm test`
+## Desenvolvimento do Back-End:
+A tecnologia utilizada pelo back-end tem sua codificação em Java com o framework Spring Boot. Os padrões Rest e a especifição do JPA, Java Persistence API através da tecnologia ORM do Hibernate, foram aplicadas como estrutura do código fonte. Através dos serviços da AWS, Amazon Web Services, o banco de dados Relacional MySQL e um servidor Linux Ubuntu também instanciado em nuvem compõe e infraestrutura da aplicação.
+Um bucket ainda na AWS dispõe o Front-end que consome esta API através da biblioteca React. Esta codificação pode ser também acompanhada através deste link:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[<img alt="Git-Hub Project Front-End" width="100px" src="src/main/resources/img/img_logos/Github.svg" />](https://github.com/rockgustavo/Project_full_Patrim_React)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
