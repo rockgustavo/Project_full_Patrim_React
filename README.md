@@ -8,11 +8,13 @@ A tecnologia utilizada pelo front-end para consumir a API foi a biblioteca React
 
 [<img alt="Git-Hub Project Back-End" width="100px" src="src/img_logos/Github.svg" />](http://github.com/rockgustavo/Project_full_Patrim)
 
-### Front-End - Consumo da API com base no React, link de acesso:
+### Front-End - Consumo da API com base no React
 [<img alt="Front-End" width="300px" src="src/img_logos/Controle_patrimonial.PNG" />](http://rockgustavo.com.s3-website-us-east-1.amazonaws.com/)
+Link da Aplicação: [API controle patrimonial](http://rockgustavo.com.s3-website-us-east-1.amazonaws.com/)
 
 ### Back-End - API Restful com base no Spring Boot 3.0, link de acesso:
 [<img alt="Back-End" width="200px" src="src/img_logos/Swagger.PNG" />](http://107.21.11.22:8080/swagger-ui/index.html)
+Link da API: [](http://107.21.11.22:8080/swagger-ui/index.html)
 
 ### A regra de negócio
 A necessidade de controle patrimonial de uma empresa, ou entidade privada, se faz necessário como um módulo administrativo que interage seus dados com outros módulos, como o controle de funcionários e a contabilidade. 
