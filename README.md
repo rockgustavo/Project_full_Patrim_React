@@ -10,10 +10,12 @@ A tecnologia utilizada pelo front-end para consumir a API foi a biblioteca React
 
 ### Front-End - Consumo da API com base no React
 [<img alt="Front-End" width="300px" src="src/img_logos/Controle_patrimonial.PNG" />](http://rockgustavo.com.s3-website-us-east-1.amazonaws.com/)
+
 Link da Aplicação: [Aplicacão controle patrimonial](http://rockgustavo.com.s3-website-us-east-1.amazonaws.com/)
 
 ### Back-End - API Restful com base no Spring Boot 3.0, link de acesso:
 [<img alt="Back-End" width="200px" src="src/img_logos/Swagger.PNG" />](http://107.21.11.22:8080/swagger-ui/index.html)
+
 Link da API: [API Patrimônio](http://107.21.11.22:8080/swagger-ui/index.html)
 
 ### A regra de negócio
