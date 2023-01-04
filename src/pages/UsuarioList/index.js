@@ -160,9 +160,9 @@ const UsuarioList = () => {
         onPage={onCustomPage1} responsiveLayout="scroll"
         rowHover selection={selectedCustomers} responsive="true"
         onSelectionChange={e => setSelectedCustomers(e.value)}
-        emptyMessage="Não há usuários na base">
+        emptyMessage="Loading...">
         <Column selectionMode="single" selectionAriaLabel="name" headerStyle={{ width: '3em' }}></Column>
-        <Column field="user_id" header="ID" style={{ width: '2%' }}></Column>
+        <Column columnKey='user_id' field="user_id" header="ID" style={{ width: '2%' }}></Column>
         <Column field="nome" header="Nome"></Column>
         <Column field="cpf" header="CPF"></Column>
         <Column field="login" header="Login"></Column>

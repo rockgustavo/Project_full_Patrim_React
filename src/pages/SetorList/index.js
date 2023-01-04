@@ -160,9 +160,9 @@ const SetorList = () => {
         onPage={onCustomPage1} responsiveLayout="scroll"
         rowHover selection={selectedCustomers} responsive="true"
         onSelectionChange={e => setSelectedCustomers(e.value)}
-        emptyMessage="Não há setores na base">
+        emptyMessage="Loading...">
         <Column selectionMode="single" selectionAriaLabel="name" headerStyle={{ width: '3em' }}></Column>
-        <Column field="setor_id" header="ID" style={{ width: '2%' }}></Column>
+        <Column columnKey='setor_id' field="setor_id" header="ID" style={{ width: '2%' }}></Column>
         <Column field="nome" header="Setor"></Column>
         <Column field="area" header="Área"></Column>
         <Column className={styles.colunaFull} field="situacao" header="Ativo"></Column>
